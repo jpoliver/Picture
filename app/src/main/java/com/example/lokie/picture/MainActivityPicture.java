@@ -31,8 +31,8 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.Set;
 
-public class MainActivityPicture extends AppCompatActivity {
-   Button b1,b2;
+public class Picture extends AppCompatActivity View.OnClickListener{
+   Button b1;
    ImageView iv;
 
    @Override
